@@ -1,0 +1,23 @@
+
+  .Footer__backToTop{
+    height:50px;
+    width:100%;
+    border:none;
+    cursor:pointer;
+    color:whitesmoke;
+    text-align:center;
+    /* padding:10px; */
+    background:#6c8ccc;
+  }
+
+  .Footer__copyright{
+    background:#537dd1;
+    display:flex;
+    justify-content:center;
+    color:white;
+    align-items:center;
+    border-top:1px solid #eee;
+    border-bottom:none;
+    /* padding:18px; */
+    height:50px;
+  }
