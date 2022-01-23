@@ -42,7 +42,7 @@ function App() {
 
   return (
     <>
-        <h1>Pokemon Charecter Data</h1>
+        <h1>Pokemon Character Data</h1>
         <PageButtons toNxtPg={toNxtPg} nxtUrl={nxtUrl} toPrevPg={toPrevPg} prevUrl={prevUrl} />
         <FiltersnSorts pokemonData={pokemonData}/>
         <Footer/>
