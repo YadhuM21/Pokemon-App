@@ -14,17 +14,19 @@ function FiltersnSorts({pokemonData}) {
   const searchWrapper = document.querySelector('.wrapper');
   const resultsWrapper = document.querySelector('.results');
 
-  const handleFrom = (event) => {
-    setFrom(event?.target?.value);
-  }
+  // const handleFrom = (event) => {
+  //   setFrom(event?.target?.value);
+  // }
 
-  const handleTo = (event) => {
-    setTo(event.target.value);
-  }
+  // const handleTo = (event) => {
+  //   setTo(event.target.value);
+  // }
 
   const handlefData = (event) => {
     // setresults([]);
-    let searchVal = event.target.value;
+    setfData(event.target.value);
+    let searchVal = event.target.value.trim();
+    
     let temp = [] ;
     if(searchVal.length){
       pokemonData.filter((item) => {
@@ -35,7 +37,6 @@ function FiltersnSorts({pokemonData}) {
       setresults(temp);
     }
     renderResults(temp);
-    setfData(event.target.value);
   }
 
   const renderResults = (res) => {
@@ -55,7 +56,7 @@ function FiltersnSorts({pokemonData}) {
     }
   }
 
-  if(results.length === 0 ) {
+  if((results.length === 0) ||  (fData.split(" ").join("").length == 0)) {
     return (
       <div className='container'>
 

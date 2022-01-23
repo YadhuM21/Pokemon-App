@@ -14,7 +14,7 @@ function Footer() {
            <button className="Footer__backToTop" onClick={scrollToTop}>Back to top</button>
                 
             <div className="Footer__copyright">
-                <h4>Pokemon App created by &copy; Yadhu</h4>
+                <h4 className='footerData'>Pokemon App created by &copy; Yadhu</h4>
             </div>
         </div>
     )

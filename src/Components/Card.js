@@ -59,7 +59,7 @@ function Card({type , imgUrl , abilityOne , abilityTwo , height , weight , name 
             <span className="card__label">Ability</span>
             {abilityOne ? abilityOne : "--"}
           </h4>
-          <h4 className="card__ability">
+          <h4 className="card__ability text-end">
             <span className="card__label">Hidden Ability</span>
             {abilityTwo ? abilityTwo : "none"}
           </h4>

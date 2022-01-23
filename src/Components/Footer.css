@@ -8,6 +8,7 @@
     text-align:center;
     /* padding:10px; */
     background:#6c8ccc;
+    font-family: "Amazon Ember",Arial,sans-serif;
   }
 
   .Footer__copyright{
@@ -16,8 +17,13 @@
     justify-content:center;
     color:white;
     align-items:center;
-    border-top:1px solid #eee;
+    border-top:1px solid #92a9d6;
     border-bottom:none;
     /* padding:18px; */
     height:50px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+  }
+
+  .footerData {
+    font-size: 20px;
   }
